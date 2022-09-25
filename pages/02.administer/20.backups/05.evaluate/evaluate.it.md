@@ -14,7 +14,7 @@ page-toc:
 In un contesto di self hosting le strategie di backup sono un fattore chiave per sopperire ad eventi inattesi (incendio, corruzione del database, impossibilità di accedere al server, compromissione del server...). La tipologia di backup da adottare dipende dalla importanza dei dati e dei servizi che vogliamo proteggere. Ad esempio, nel contesto di un server di test possiamo evitare un backup integrale (dati e sistema operativo), al contrario, dovremo porre molta più attenzione nel caso di un server in produzione che contenga dati importanti. In questo caso è necessario conservare più copie di backup *in posti diversi*.
 
 ## Ottimizzare il backup
-Un buon backuo consiste in almeno **tre copie dei dati** (compreso l'originale), salvate su almeno **due supporti distinti** che si trovano a loro volta **in due luoghi distinti** (sufficientemente lontani tra loro) e con due diversi sistemi di stoccaggio. Se il vostro backup è cifrato **questa regola aurea si applica anche alla password o frase di decifrazione**.
+Un buon backup consiste in almeno **tre copie dei dati** (compreso l'originale), salvate su almeno **due supporti distinti** che si trovano a loro volta **in due luoghi distinti** (sufficientemente lontani tra loro) e con due diversi sistemi di stoccaggio. Se il vostro backup è cifrato **questa regola aurea si applica anche alla password o frase di decifrazione**.
 
 Un buon backup deve anche essere recente, dovrete quindi essere molto precisi e quando possibile **automatizzare il processo**.
 
